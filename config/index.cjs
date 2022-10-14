@@ -33,7 +33,7 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '2001', date: '11-05',
+          type: '生日', name: '周小静', year: '2001', date: '11-05',
         },
         {
           type: '节日', name: '相恋纪念日', year: '2020', date: '10-01',
@@ -43,7 +43,7 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-10-15' },
-        // 下次相见日
+        // 下次相见的日子
         { keyword: 'meet_day', date: '2022-11-11' },
       ],
     },
@@ -57,7 +57,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'owmvL54G59FaNME1z-IJo6VmOxXo',
+      id: '',
     }
   ],
 
